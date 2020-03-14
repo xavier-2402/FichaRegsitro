@@ -26,7 +26,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-              <Component id="Panel" max="32767" attributes="0"/>
+              <Component id="Panel" pref="1053" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -85,11 +85,6 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="lbApellidos" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
-                                          <Component id="txtApellidos" min="-2" pref="300" max="-2" attributes="0"/>
-                                      </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="103" alignment="0" groupAlignment="1" attributes="0">
@@ -116,6 +111,14 @@
                                               <Component id="cbParroquia" alignment="0" pref="300" max="32767" attributes="0"/>
                                               <Component id="txtCalle" alignment="0" max="32767" attributes="0"/>
                                               <Component id="txtNumeroCasa" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lbApellidos" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtApellidos" min="-2" pref="300" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -272,6 +275,7 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbId" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -342,12 +346,14 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lbTelefonos" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lbFijo" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtFijo" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lbCelular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="txtCelular" alignment="1" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbTelefonos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbFijo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFijo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbCelular" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -386,11 +392,13 @@
                       <Component id="chkOtros" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="chkViolacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="chkEconomica" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="chkOmision" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="chkIntimidacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkViolacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkIntimidacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -419,7 +427,7 @@
                       <Component id="lbOtrosFactores" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtOtrosFactores" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="169" max="32767" attributes="0"/>
+                  <EmptySpace pref="92" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -845,6 +853,11 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtOtrosFactores">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel8"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
