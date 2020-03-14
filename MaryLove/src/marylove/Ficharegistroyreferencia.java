@@ -240,7 +240,7 @@ public class Ficharegistroyreferencia extends javax.swing.JFrame {
 
         lbOtrosFactores.setText("Otros:");
 
-        jLabel8.setText("jLabel8");
+        jLabel8.setText("asdfghiopp");
 
         javax.swing.GroupLayout PanelLayout = new javax.swing.GroupLayout(Panel);
         Panel.setLayout(PanelLayout);
